@@ -1,0 +1,108 @@
+/* Common CSS */
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+}
+main section{
+    margin: 120px 0 120px;
+}
+
+/* Header CSS */
+.header-banner{
+    margin: 50px 140px;
+    background-image: url('../images/banner-image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+}
+.banner-subtitle{
+    margin: 0 0 0;
+    padding-top: 150px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+.banner-title{
+    margin: 0;
+    padding: 0 180px 150px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+}
+
+/* Main Section CSS */
+
+/* Category CSS */
+.category{
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+.category-title{
+    margin: 0 0 35px;
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+}
+.category-description{
+    margin: 0 0 20px;
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+}
+.category-subheading{
+    margin: 0 0 45px;
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+/* Welcome section CSS */
+.welcome{
+    margin: 50px 140px;
+    background-image: url('../images/Vectorrr.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+}
+.welcome-container{
+    display: flex;
+    align-items: center;
+    padding: 0 125px;
+}
+.welcome-content-title{
+    color: #FFF;
+    font-family: 'Merriweather', serif;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+}
+.welcome-content-description{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+.btn-join{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: none;
+}
+.welcome-img{
+    padding: 60px 0;
+    fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
