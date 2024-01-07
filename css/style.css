@@ -14,6 +14,11 @@ main section{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 16px;    
+}
+.banner-content{    
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     border-radius: 16px;
 }
 .banner-subtitle{
@@ -75,6 +80,8 @@ main section{
     display: flex;
     align-items: center;
     padding: 0 125px;
+    border-radius: 16px;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
 }
 .welcome-content-title{
     color: #FFF;
@@ -90,7 +97,7 @@ main section{
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 166.667% */
+    line-height: 30px;
 }
 .btn-join{
     color: #FFF;
@@ -104,5 +111,11 @@ main section{
 }
 .welcome-img{
     padding: 60px 0;
-    fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+
+/* Address section CSS */
+.address{
+    margin: 50px 140px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
 }
