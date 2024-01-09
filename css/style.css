@@ -238,28 +238,59 @@ main section{
     display: flex;
     justify-content: space-between;
 }
-/* .rec-img1{} */
 .rec-img1 img{
     width: 100%;
 }
 .rec-img2 img{
+    margin-left: 120px;
     width: 100%;
 }
 .rec-img3 img{
     width: 100%;
 }
 .image-box2{
+    margin-top: -160px;
     background: url('../images/rectangle2.png');
-    padding: 50px 0;
+    padding: 140px 0;
+    border-radius: 16px;
+    background-repeat: no-repeat;
 }
 
 /* Portfolio section CSS */
 .portfolio{
     margin: 120px 150px;
 }
+.portfolio-subtitle{
+    margin-bottom: 0;
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+.portfolio-title{
+    margin: 16px 0 22px;
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.portfolio-description{
+    margin-bottom: 35px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+}
 .portfolio-gallery{
     display: flex;
     gap: 25px;
+    justify-content: center;
+}
+.porfolio-gallery1 img{
+    width: 424px;
+    height: 450px;
 }
 
 /* Newsletter CSS */
@@ -292,7 +323,7 @@ main section{
 .news-form input{
     margin-right: -5px;
     background: #FFF;
-    border: none;
+    border: 1px solid transparent;
     padding: 15px 30px;
     border-radius: 50px 0px 0 50px;
     color: rgba(7, 2, 17, 0.30);
@@ -302,12 +333,20 @@ main section{
 .news-form button{
     border-radius: 0px 50px 50px 0px;
     background: #F00;
-    border: none;
+    border: 1px solid transparent;
     padding: 12px 30px;
     color: #FFF;
     font-size: 18px;
     font-weight: 600;
     text-transform: capitalize;
+}
+.news-form button:hover{
+    background: transparent;
+    border: 1px solid #F00;
+    padding: 12px 30px;
+    color: #F00;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
 }
 
 /* Footer */
